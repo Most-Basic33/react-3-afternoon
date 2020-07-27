@@ -206,7 +206,7 @@ Let's begin by opening `./src/components/App.js`. In the `render` method, we'll 
 }
 ```
 
-Now that our `Post` component is receiving the `text` and `date`, we can `render` them in the `Post` component. Let's open `./src/components/Post/Post.js`. I'm going to destructure `text` and `date` off of `props` at the top of the `render` method for easier referencing.
+Now that our `Post` component is receiving the `text` and `date`, we can `render` them in the `Post` component. Let's open `./src/components/Post/Post.js`. I'm going to destructure `text` and `date` off of `props` at the top of the `render` emethod for easier referencing.
 
 ```js
 const { text, date } = this.props;
